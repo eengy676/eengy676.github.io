@@ -1,0 +1,105 @@
+@media (max-width:1200px) {
+.owl-carousel img{
+  height:400px !important
+}
+header{
+  height:400px !important;
+}
+.navbar{
+  z-index:1000;
+ 
+
+border-bottom:none !important;
+height:100px;
+margin-bottom:0rem
+}
+.header-content a{
+  margin: auto !important;
+  display: table !important
+}
+.header-content h1{
+  font-weight: 300;
+  font-size: 20px !important;
+  color: #fff;
+  text-align: center;
+}
+
+.cover .header-content h2 {
+  font-weight: 300;
+  font-size: 15px !important;
+  color: #fff;
+  text-align: center;
+}
+#top-bar{
+  display: none
+}
+.section-heading h3{
+  font-size:20px !important
+}
+.large-heading h4{
+  font-size:18px !important
+}
+.caro li img{
+  height:40px !important
+}
+.contact-box-place-office{
+  padding:40px 50px !important
+}
+.button-md{
+  margin-bottom:1rem
+}
+
+.cover .header-content h1 {
+  font-size:20px !important;
+  font-weight: 600;
+  margin: 5px 0 20px;
+  word-spacing: 3px;
+  color: #fff;
+  text-align: center;
+}
+.navbar-brand img {
+    width: 100px !important;
+}
+
+.section-heading h2{
+  font-size:30px !important
+}
+.font-size-35 {
+    font-size: 25px !important;
+}
+.mt-40{
+  margin-bottom:1rem
+}
+.cover .header-content h2
+{
+  margin-top:3rem !important
+}
+.btn-primary{
+  padding:10px 20px !important
+}
+
+
+}
+
+@media (min-width: 300px) and (max-width: 500px){
+.team img{
+  height:100% !important
+}
+
+
+}
+/*small screen*/
+@media (min-width: 768px) and (max-width: 991.98px){
+
+
+
+}
+/*medium screen*/
+@media (min-width:992px) and(max-width:1199px){
+
+}
+/*large screen*/
+
+@media(min-width:300px)  {
+
+}
