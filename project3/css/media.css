@@ -1,0 +1,212 @@
+@media (max-width:1200px) {
+  [slider]{
+    margin-bottom:2rem !important;
+  }
+  .myCircle {
+    width: 150px !important;
+    height: 75px !important;
+    border-top-left-radius: 150px !important;
+    border-top-right-radius: 150px !important;
+    border: 5px dashed #fa3256;
+    border-bottom: 0;
+    margin: auto;
+    display: table;
+}
+.top{
+  margin-top:1rem !important;
+}
+.new-box{
+  margin-bottom:10px
+}
+.myCircle span{
+  font-size: 2rem !important;
+}
+.btnnn {
+
+  margin: auto !important;
+  display: table !important;
+}
+.bt {
+  padding: 0.5rem 0.5rem !important;
+  margin: auto !important;
+  display: table !important;
+
+  
+}
+
+.imgg{
+  display: none;
+}
+.ii{
+  margin-top:2rem !important;
+}
+.lin-dashed,.rightt,.right,.lin-dashedd{
+  display: none !important;
+}
+  .demo-section .new-box{
+    margin: auto !important;
+  }
+
+  .page-content .top-img {
+    height: 500px;
+    
+    }
+    .top-section{
+      margin-top:3rem !important
+    }
+    .navbar-brand img{
+      width:9rem !important;
+    }
+    .vb{
+      width:50%
+    }
+    .side-part {
+        margin-left: 30% !important;
+    }
+    .side-part{
+      font-family: arial;
+        margin-top: -60%;
+    }
+    .side-part h1{
+      margin-left:0rem !important;
+      font-size: 1rem !important
+    }
+    .p-one{
+      margin-left:1rem !important;
+  }
+  .p-second{
+      margin-left:2rem !important;
+  }
+  .p-third{
+      margin-left:3rem !important;
+  }
+  .bottom-part{
+    margin-left: 20% !important;
+  }
+    .side-part span{
+    font-size:1rem !important
+    }
+    .side-part strong{
+    
+      font-size: 1.5rem !important
+    }
+    .text-muted p{
+      font-size:0.9rem !important
+    }
+    .full-width{
+width:100% !important
+    }
+    .social-links{
+      margin:auto;
+      display:table
+    }
+    .card{
+      margin-top:2rem !important
+    }
+    .bottom-card{
+      text-align: center;
+    }
+    .top-card{
+      text-align: center;
+    }
+    .social-links-footer li{
+      width:30px !important;
+      height:30px !important
+    }
+    .social-links-footer a i{
+      margin-top:0.4rem !important;
+    }
+    .bottom-footer p{
+      font-size:13px;
+    }
+    .social-links li{
+      font-size:13px !important;
+    }
+    .top-section{
+      margin-top:6rem !important
+    }
+.jumbtron-title{
+  font-size:1.5rem !important;
+}
+#pp{
+  font-size:1.5rem !important;
+}
+.topp{
+  margin: auto !important;
+  display: table !important;
+  margin-top: 1rem !important;
+}
+.p-two {
+  padding-bottom:1rem;
+}
+.top-band{
+  height: 8rem !important;
+  width:8rem !important;
+  
+}
+.white{
+  padding:0rem !important;
+}
+#ts{
+  width: 20% !important;
+}
+.over-lay{
+top:39.5% !important;
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+  width:92% !important;
+  height:345px !important;
+  overflow: hidden;
+  
+}
+
+.en{
+  margin-top:1rem !important;
+}
+.right-section h2{
+  font-size:1.5rem !important;
+}
+.box {
+
+  border-radius: 0rem !important;
+ 
+  padding:0rem !important;
+  padding-bottom:2rem !important;
+  padding-top:1rem !important;
+}
+.on{
+  
+  margin-top:2rem !important;
+  margin-bottom:2rem !important;
+}
+/* .top-b{
+  margin: auto;
+  display: table;
+} */
+ .p-tr{
+   width:100% !important
+ }   
+}
+
+@media (min-width: 300px) and (max-width: 500px){
+.team img{
+  height:100% !important
+}
+
+
+}
+/*small screen*/
+@media (min-width: 768px) and (max-width: 991.98px){
+
+
+
+}
+/*medium screen*/
+@media (min-width:992px) and(max-width:1199px){
+
+}
+/*large screen*/
+
+@media(min-width:300px)  {
+
+}
