@@ -1,0 +1,44 @@
+@media (max-width:1200px) {
+  .button-md{
+    margin: auto;
+    display: table
+  }
+  .loginn {
+    margin: auto;
+    width: 300px !important;
+    max-width:100%
+
+}
+.background img{
+  height:300px !important
+}
+.login-link {
+    font-size: 12px !important;
+    color: #444;
+    display: block;
+    margin-top: 12px;
+    color: #7d4725;
+}
+#radio{
+  float: right;
+}
+
+
+}
+
+
+/*small screen*/
+@media (min-width: 768px) and (max-width: 991.98px){
+
+
+
+}
+/*medium screen*/
+@media (min-width:992px) and(max-width:1199px){
+
+}
+/*large screen*/
+
+@media(min-width:300px)  {
+
+}
