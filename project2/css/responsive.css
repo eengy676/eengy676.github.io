@@ -1,0 +1,127 @@
+@media (min-width: 300px) {
+footer h2, footer h5 {
+    text-align: center;
+}
+footer i{
+	position: absolute;
+	top: 1rem;
+}
+}
+
+
+ @media only screen and (min-device-width: 993px) and (max-device-width: 1440px) and (orientation:landscape) {
+      /* For landscape layouts only */
+      .small-modal{
+			display: none;
+		}
+		.larg-drop{
+			display: block;
+		}
+
+    }
+
+
+
+
+    @media only screen and (min-width: 300px) and (max-width: 992px)  {
+      header .navbar-nav li a:hover { background: transparent;}
+      .right-about{margin-bottom:9rem}
+    	footer  ul.navbar-nav {
+      	display: none;
+      }
+      footer  ul{
+        display: none;
+      }
+      #new-account {
+    margin-top: 4rem;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 4rem;
+    }
+    .roy {
+    margin-top: 0rem !important;
+
+    font-size: 24px;
+  }
+      .footer-text{text-align: center;}
+      .log{text-align: center;}
+      footer .log{margin: 0 auto;}
+
+      .Activation-head h2{
+      	font-size: 18px;
+      }
+
+      .avat img {
+    	vertical-align: middle;
+		}
+		.resend button.repeat-btn {
+    width: 100%;
+
+}
+.Activation-text img{
+	display: table;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+  }
+
+  .controll .controll-button button{
+    margin-bottom: .5rem;
+  }
+  .user .card{
+    width: 100%!important;
+  }
+  .resend input {
+    text-align: center;
+    font-size: 11px;
+}
+.condition h2{
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+}
+.charct h1,h3{text-align: center;}
+p.support {
+    text-align: center;
+
+}
+.list-unstyled h5, .list-unstyled p{
+  font-size: 11px;
+}
+.Activation-text h5, .payment-success h1, .buycard h3, .own-card .all-owncard li.media h2 {font-weight: lighter;margin: 0 auto;font-size:15px}
+p, .conf-mail p, .Activation-text p, .top-user p, .contact-form p, .cart-pays p, .buycard p, .buycard h5, .payment-success h6, .save-card .all-owncard li.media h2, .about-content h2, h4, .button-wrapper span.label{font-size:12px}
+.page-link{font-size:13px}
+.way{width:100% !important}
+.own-card .all-owncard li.media nav ul.pagination a, .save-card .all-owncard li.media nav ul.pagination a{ padding: 0.4rem;}
+.pagination li {margin: .5rem;}
+.bottom-img h4{font-size: 14px;}
+#mypicture{background-color: #fff; padding: .3rem;}
+.cond-bottom .text{position: relative; top:1rem;right: 2rem;}
+.alldetails .right-about img{
+    position: absolute;
+    bottom: 0rem;
+    top: 82%;
+    right: 4rem;
+}
+h6{font-size: 13px;}
+}
+@media only screen and (min-width: 200px) and (max-width: 400px)  {
+
+
+.Activation p{
+  font-size: 12px;
+}
+.repeat a{font-size: 14px;}
+.bot-user h5 {
+    font-size: 12px;
+    word-break: break-all;
+}
+li.getvalu{display: none;}
+#value{display: block;}
+
+.alldetails .right-about img{
+    position: absolute;
+    bottom: 0rem;
+    top: 82%;
+    right: 1rem;
+}.wireway h5, .visa h5{margin: 5px;}
+}

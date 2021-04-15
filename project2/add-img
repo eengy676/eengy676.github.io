@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
+    <title>Ezuca</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/flags.css" >
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    
+  </head>
+  <body class="offwhite">
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="log">
+            <a href="#"><img src="img/image/logo(dark).svg"></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#avatar-modal"  aria-expanded="false" aria-label="Toggle navigation">
+          <img src="img/avatr.png" class="img-fluid">
+          <span class="fa fa-align-right"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav mr-auto ava-nav">
+              <li class="nav-item">
+                <a class="nav-link " href="#" >الرئيسيه</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="about.html" >عن يلا <strong>pay</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="avilable-cart.html" >الكروت المتاحه</a>
+              </li>
+              <li class="nav-item dropdown" id="tog">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="avat"><img src="img/Assets77.png"></span>
+                <span class="text"><p>ااحمد ازن </p> عضو  منذ 2019</span></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6>اعدادات الحساب</h6>
+                  <a class="dropdown-item" href="#">بياناتي الشخصيه</a>
+                  <a class="dropdown-item" href="#">بطاقاتى الانتمائيه</a>
+                  <h6>الكروت</h6>
+                  <a class="dropdown-item" href="#" id="waiting">قيد انتظار الدفع  <span>2</span>  </a>
+                  <a class="dropdown-item" href="#"> المشتراه</a>
+                  <h6>التحقق  من  خطوتين</h6>
+                  <a class="dropdown-item" href="#">تسجيل خروج</a>
+                </div>
+              </li>
+            </ul>
+            
+          </div>
+        </nav>
+        <div class="modal fade" id="avatar-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><img src="img/logo-white.png" class="img-fluid"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="top">
+                  <img src="img/Assets77.png">
+                  <span class="data"><p>ااحمد ازن </p> عضو  منذ 2019</span>
+                </div>
+                <div class="list">
+                  <ul class="navbar-nav user-nav">
+                    <li class="nav-item">
+                      <div>
+                        <h6>اعدادات الحساب</h6>
+                        <a class="dropdown-item" href="#">بياناتي الشخصيه</a>
+                        <a class="dropdown-item" href="#">بطاقاتى الانتمائيه</a>
+                        <h6>الكروت</h6>
+                        <a class="dropdown-item" href="#" id="uesr-namber">قيد انتظار الدفع  <span>2</span>  </a>
+                        <a class="dropdown-item" href="#"> المشتراه</a>
+                        <h6>التحقق  من  خطوتين</h6>
+                        <a class="dropdown-item" href="#">تسجيل خروج</a>
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link " href="#" >عن يلا <strong>pay</strong></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="avilable-cart.html" >الكروت المتاحه</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#" >حساب جديد</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">الدخول</a>
+                    </li>
+                    
+                  </ul>
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    
+    
+    <section class="own-card">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 all-owncard">
+            <div class="row">
+              <div class="col-10">
+                <a href="#">
+                  <i class="fa fa-arrow-right"></i>
+                </a>
+              </div>
+              <div class="col-6">
+                <h4>الكروت المشتراة</h4>
+              </div>
+              <div class="col-6">
+                <a class="btn pendding" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <strong>كل  الكروت</strong><i class="fa fa-caret-down"></i>
+                </a>
+              </div>
+              <div class="col-lg-8 col-12">
+                <div class="row">
+                  <ul class="list-unstyled collapse " id="collapseExample">
+                    <li class="media">
+                      <img src="img/image/ps-small-card.svg" class="mr-3" alt="...">
+                      <div class="media-body">
+                        <h2 class="mt-0 mb-1">mns6-wit9-inter</h2>
+                        <div class="row">
+                          <div class="col-md-2">
+                            <h6 class="cost">15$</h6>
+                          </div>
+                          <div class="col-md-5">
+                            <h6 class="mail">allaamohamedi@payers.net</h6>
+                          </div>
+                          <div class="col-md-3">
+                            <a href="#" class="pay">تاكيد الدفع</a>
+                          </div>
+                          <div class="col-md-2">
+                            <a href="#" class="remove">حذف</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="media">
+                      <img src="img/image/ps-small-card.svg" class="mr-3" alt="...">
+                      <div class="media-body">
+                        <h2 class="mt-0 mb-1">mns6-wit9-inter</h2>
+                        <div class="row">
+                          <div class="col-md-2">
+                            <h6 class="cost">15$</h6>
+                          </div>
+                          <div class="col-md-5">
+                            <h6 class="mail">allaamohamedi@payers.net</h6>
+                          </div>
+                          <div class="col-md-3">
+                            <a href="#" class="pay">تاكيد الدفع</a>
+                          </div>
+                          <div class="col-md-2">
+                            <a href="#" class="remove">حذف</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="media">
+                      <img src="img/image/ps-small-card.svg" class="mr-3" alt="...">
+                      <div class="media-body">
+                        <h2 class="mt-0 mb-1">mns6-wit9-inter</h2>
+                        <div class="row">
+                          <div class="col-md-2">
+                            <h6 class="cost">15$</h6>
+                          </div>
+                          <div class="col-md-5">
+                            <h6 class="mail">allaamohamedi@payers.net</h6>
+                          </div>
+                          <div class="col-md-3">
+                            <a href="#" class="pay">تاكيد الدفع</a>
+                          </div>
+                          <div class="col-md-2">
+                            <a href="#" class="remove">حذف</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="media">
+                      <img src="img/image/ps-small-card.svg" class="mr-3" alt="...">
+                      <div class="media-body">
+                        <h2 class="mt-0 mb-1">mns6-wit9-inter</h2>
+                        <div class="row">
+                          <div class="col-md-2">
+                            <h6 class="cost">15$</h6>
+                          </div>
+                          <div class="col-md-5">
+                            <h6 class="mail">allaamohamedi@payers.net</h6>
+                          </div>
+                          <div class="col-md-3">
+                            <a href="#" class="pay">تاكيد الدفع</a>
+                          </div>
+                          <div class="col-md-2">
+                            <a href="#" class="remove">حذف</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                     <i class="  fa fa-chevron-down"></i>
+                  </ul>
+                  <div class="add-img">
+
+                    <h4>تاكيد عملية الايداع  لشراء هذه البطاقة</h4>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <form class="custom-form">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">اسمك</label>
+                            <input type="text" class="form-control" id="exampleInputtext1" aria-describedby="emailHelp">
+                            <p class="last">ماذا تحب ان نناديك ؟</p>
+                            
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputtext1">رقم اياصل  الايداع</label>
+                            <input type="text" class="form-control" id="exampleInputtext1" aria-describedby="emailHelp">
+                            <p class="last">سوف يتم ارسال الرد عليه رسالتك والتواصل </p>
+                          </div>
+                          <div class="button-wrapper form-group">
+                            <span class="label">
+                              <img src="img/image/cloud-backup-up-arrow (1).svg" class="img-fluid">
+                              ارفع صوره واضحه لايصال الايداع</span>
+                            <input type="file" name="upload" id="upload" 
+                            class="upload-box form-control" placeholder="Upload File">
+                            
+                          </div>
+                          <button type="submit" class="btn">ارسل  بيانات  التحويل</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12 data-bank">
+                <h3>بيانات  الايداع البنكية</h3>
+                <p>قم بايداع  المبالغ  بعملتك  المحليه  الى حسابنا ف البنك الاهلى  السعودى  بحسب البيانات التالية</p>
+                <div class="bank">
+                  <ul class="list-group">
+                    <h6>اسم البنك</h6>
+                    <li class="list-group-item"><img src="img/image/bank-logo.svg"><span>البنك الاهلى السعودى</span></li>
+                    <h6>رقم الحساب </h6>
+                    <li class="list-group-item">774451511471</li>
+                    <h6>رقم السويفت swift</h6>
+                    <li class="list-group-item">Bdhddkdf</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        
+        <footer class="conf-foot">
+          
+          <nav class="navbar navbar-expand-lg">
+            <div class="col-md-10">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link " href="#" >الصفحه الرئيسيه</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#" >عن يلا <strong>pay</strong></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#" >البطاقات المتاحه</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#" >اتصل بنا</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">English</a>
+                </li>
+                
+              </ul>
+            </div>
+            <div class="col-md-2 col-12">
+              <div class="log">
+                <p>© 2019 YallaPay, Inc.</p>
+              </div>
+            </div>
+          </div>
+        </nav>
+        
+      </footer>
+      
+      
+      
+      
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flagstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      
+      
+    </body>
+  </html>

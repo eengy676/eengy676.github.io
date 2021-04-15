@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="20px" height="24px" viewBox="0 0 20 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="icon">
+    <path d="M0 0L19.0001 11.5002L0 23.0002L0 0Z" id="path5127" fill="#518FF5" stroke="none" />
+    <path d="M0 2.27374e-13L12.8027 15.2422L18.9922 11.4961L8.88178e-16 0L0 2.27374e-13Z" transform="translate(0.008300781 0.003723145)" id="rect5761" fill="#34A853" stroke="none" />
+    <path d="M12.7949 0.0005L0 15.2349L0 15.2559L19 3.7559L12.7949 0L12.7949 0.0005Z" transform="translate(0.0004882813 7.743408)" id="rect5759" fill="#DD5044" stroke="none" />
+    <path d="M3.14258 2.27374e-13L0 3.7422L3.15821 7.502L9.34766 3.7559L3.14258 0L3.14258 2.27374e-13Z" transform="translate(9.652832 7.743927)" id="path5769" fill="#F5BA15" stroke="none" />
+  </g>
+</svg>
