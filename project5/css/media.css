@@ -1,0 +1,55 @@
+@media (max-width:767px) {
+  .top-social{
+    margin: auto;
+    display: table;
+  }
+  .slider-description{
+    top:110px !important
+  }
+  .caro{
+    position: absolute !important;
+  }
+  .caro li {
+    text-indent: 0px;
+    width: 100px !important;
+    height: 60px !important;
+    opacity: 0.3;
+    overflow: hidden;
+    margin: 5px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.fancy-cards{
+  padding:0px !important;
+}
+.iner img{
+  height:300px !important
+}
+.nav-link .bf-icon{
+  text-align: right !important;
+}
+.nav ul .dropdown a :after{
+  text-align: right !important;
+}
+.box p{
+  font-size: 11px !important;
+}
+}
+/*small screen*/
+@media (min-width: 768px) and (max-width: 991.98px){
+
+
+
+}
+/*medium screen*/
+@media (min-width:992px) and(max-width:1199px){
+
+}
+/*large screen*/
+
+@media(min-width:300px)  {
+
+
+}
